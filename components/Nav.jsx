@@ -39,7 +39,12 @@ const Nav = () => {
               Create Post
             </Link>
 
-            <button type='button' onClick={signOut} className='red_btn'>
+            <button
+              href='/'
+              type='button'
+              onClick={signOut}
+              className='red_btn'
+            >
               Sign Out
             </button>
 
@@ -109,7 +114,9 @@ const Nav = () => {
                     Post
                   </button>
                 </Link>
+
                 <button
+                  href='/'
                   type='button'
                   onClick={() => {
                     setToggleDropdown(false)
